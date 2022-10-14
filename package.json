@@ -1,0 +1,13 @@
+{
+    "devDependencies": {
+        "laravel-mix": "^6.0.41"
+    },
+    "workspaces": {
+        "packages": [
+            "D:\\Xampp\\htdocs\\FI\\modules\\backend",
+            "D:\\Xampp\\htdocs\\FI\\modules\\system",
+            "modules/backend",
+            "modules/system"
+        ]
+    }
+}

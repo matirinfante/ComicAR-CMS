@@ -1,0 +1,16 @@
+title = "Homepage"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[products]
+filterComponent = "productsFilter"
+setPageTitle = 0
+includeVariants = 1
+includeChildren = 0
+perPage = 9
+paginate = 1
+==
+<h1>Welcome to the OFFLINE Mall</h1>
+<p>Feel free to look around...</p>
+{% component 'products' %}
